@@ -1,0 +1,349 @@
+
+
+.App {
+  text-align: center;
+  background-image: url('../public/bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+@media (max-width : 460px) {
+  .App {
+    background-image: url('../public/bg2.jpeg');
+  }
+}
+
+.App-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  height: fit-content;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: fit-content;
+  width: 50vw;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.938);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.popup .form {
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.popup .form label {
+  font-size: 20px;
+}
+.popup .form input {
+  width: 300px;
+  height: 40px;
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.popup .form textarea {
+  width: 300px;
+  height: 100px;
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.popup .form button {
+  width: 100px;
+  height: 40px;
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: 30px;
+  width: 30vw;
+  height: 7vh;
+  justify-items: flex-start;
+  margin-bottom: 3%;
+
+}
+.buttons select {
+  width: 30vw;
+  min-height: 10vh;
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+}
+.buttons button{
+  width: 10vw;
+  min-height: 10vh;
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+ 
+  ;
+
+}
+@media (max-width : 560px) {
+  .buttons {
+    width: 100vw;
+    display: flex;
+   
+   align-items: center;
+   justify-content: center;
+  }
+  .buttons button{
+    width: 24vw;
+  }.buttons select{
+    width: 20vw;
+  }
+
+  
+}
+
+
+
+table button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+table button:hover {
+  background-color: #7f7fcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/*this is for the table source=https://colorlib.com/wp/template/responsive-table-v1/ */
+
+
+.wrap-table100 {
+    width: 1170px
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+table * {
+    position: relative
+}
+
+table td,table th {
+    padding-left: 8px
+}
+
+table thead tr {
+    height: 60px;
+    background: #7f7fcb
+}
+
+table tbody tr {
+    height: 50px
+}
+
+table tbody tr:last-child {
+    border: 0
+}
+
+table td,table th {
+    text-align: left
+}
+
+table td.l,table th.l {
+    text-align: right
+}
+
+table td.c,table th.c {
+    text-align: center
+}
+
+table td.r,table th.r {
+    text-align: center
+}
+
+.table100-head th {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5
+}
+
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset
+}
+
+tbody tr:hover {
+    color: #555;
+    background-color: #7f7fcb;
+    cursor: pointer
+}
+
+.column1 {
+    width: 260px;
+    padding-left: 40px
+}
+
+.column2 {
+    width: 160px
+}
+
+.column3 {
+    width: 245px
+}
+
+.column4 {
+    width: 110px;
+    text-align: right
+}
+
+.column5 {
+    width: 170px;
+    text-align: right
+}
+
+.column6 {
+    width: 222px;
+    text-align: right;
+    padding-right: 62px
+}
+
+@media screen and (max-width: 792px) {
+    table {
+        display:block
+    }
+
+    table>*,table tr,table td,table th {
+        display: block
+    }
+
+    table thead {
+        display: none
+    }
+
+    table tbody tr {
+        height: auto;
+        padding: 37px 0
+    }
+
+    table tbody tr td {
+        padding-left: 40%!important;
+        margin-bottom: 24px
+    }
+
+    table tbody tr td:last-child {
+        margin-bottom: 0
+    }
+
+    table tbody tr td:before {
+        font-family: OpenSans-Regular;
+        font-size: 14px;
+        color: #999;
+        line-height: 1.2;
+        font-weight: unset;
+        position: absolute;
+        width: 40%;
+        left: 30px;
+        top: 0
+    }
+
+    table tbody tr td:nth-child(1):before {
+        content: "Order ID"
+    }
+
+    table tbody tr td:nth-child(2):before {
+        content: "Name"
+    }
+
+ 
+
+    table tbody tr td:nth-child(3):before {
+        content: "Price"
+    }
+
+
+    table tbody tr td:nth-child(4):before {
+        content: "category"
+    }
+    table tbody tr td:nth-child(5):before {
+        content: "actions"
+    }
+      table tbody tr td:nth-child(6):before {
+        content: "select"
+    }
+
+
+
+    .column4,.column5,.column6 {
+        text-align: left
+    }
+
+    .column4,.column5,.column6,.column1,.column2,.column3 {
+        width: 100%
+    }
+
+    tbody tr {
+        font-size: 14px
+    }
+}
+
+@media(max-width: 576px) {
+    .container-table100 {
+        padding-left:15px;
+        padding-right: 15px
+    }
+}
+.selected{
+    background-color: rgb(203, 127, 127)96;
+}
