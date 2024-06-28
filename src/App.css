@@ -126,8 +126,21 @@ width: 100%;
   }
   .buttons button{
     width: 24vw;
-  }.buttons select{
+  }
+  .buttons select{
     width: 20vw;
+  }
+  .popup {
+    height: fit-content;
+  }
+  .popup .form button{
+    width: 80%;
+  }
+  .popup .form input{
+    width: 80%;
+  }
+  .popup .form textarea{
+    width: 80%;
   }
 
   
