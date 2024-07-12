@@ -33,17 +33,20 @@ To install and run this project locally, follow these steps:
 2. Install dependesi
    npm install
    
-##Usage 
-1.Start the app
+## Usage 
+1. Start the app
    npm start
 
-2.Open the url:
+2. Open the url:
  http://localhost:3000 
-3.Or you  can check the deployment
+3. Or you  can check the deployment
+
 To view the deployed application, [visit: Front Exam](https://djemaouiahmed.github.io/front-exam/)
-##Screenshots
-1.App interface
-(screenshots/s1)
+
+## Screenshots
+
+1. App interface
+(S1)
 
 
 
