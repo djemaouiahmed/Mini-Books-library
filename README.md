@@ -1,6 +1,7 @@
 #Mini-Books-library
 
-This project was created to demonstrate my front-end development skills for a company. It is a React application, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to demonstrate my front-end development skills for a company. It is a React application,It represent a small book library management
+bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Table of Contents
 
