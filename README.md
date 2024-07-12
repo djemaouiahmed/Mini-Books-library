@@ -22,6 +22,7 @@ The purpose of this project is to showcase my abilities in front-end development
 - State management using React hooks
 - Routing with React Router
 - Managing Books in library
+  
 
 ## Installation
 
@@ -31,25 +32,30 @@ To install and run this project locally, follow these steps:
    ```sh
    git clone https://github.com/djemaouiahmed/front-exam.git
 2. Install dependesi
+   ```sh
    npm install
    
 ## Usage 
 1. Start the app
+    ```sh
    npm start
 
-2. Open the url:
+3. Open the url:
  http://localhost:3000 
-3. Or you  can check the deployment
+4. Or you  can check the deployment
 
 To view the deployed application, [visit: Front Exam](https://djemaouiahmed.github.io/front-exam/)
 
 ## Screenshots
 
 1. App interface
-(S1)
+![Screenshot 1](S1.png)
 
+## Contact Information
+For any inquiries or feedback, feel free to contact me at:
 
-
+- Email: your.email@example.com
+- GitHub: djemaouiahmed
 
 ## Learn More
 
